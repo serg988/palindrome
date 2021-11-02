@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 100px;
+}
+
+.btn {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin-top: 70px;
+  border-radius: 5px;
+  background-color: darkslategrey;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:active {
+  transform: scale(0.95);
+  outline: none;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.message {
+  color: green;
+  font-size: 0rem;
+  transform: translateY(-600px);
+  transition: all 500ms ease-in-out;
+}
+.message.success {
+  transform: translateY(0);
+  font-size: 7rem;
+}
+
+.wrong{
+  color: darkred;
+}
